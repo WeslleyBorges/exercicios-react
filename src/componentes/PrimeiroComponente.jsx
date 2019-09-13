@@ -1,7 +1,7 @@
 import React from 'react'
 
-function primeiro() {
-    return <h1>Este é o primeiro componente!</h1>
+function primeiro(props) {
+    return <h1>{props.valor}</h1>
 }
 
 export default primeiro
