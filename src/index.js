@@ -7,12 +7,14 @@ import ReactDOM from 'react-dom'
 // import FamiliaJeager from './componentes/FamiliaJeager'
 import Familia from './componentes/Familia'
 import Membro from './componentes/Membro'
+import ComponenteFuncional from './componentes/ComponenteFuncional'
 
 const elementos = <div>
                     <Familia sobrenome="Uchiha">
                       <Membro nome="Sasuke"></Membro>
                       <Membro nome="Itachi"></Membro>
                     </Familia>
+                    <ComponenteFuncional></ComponenteFuncional>
                     {/* <PrimeiroComponente valor="Valor do primeiro componente."/>
                     <SegundoComponente idade={22}/>
                     <CompA valor="Sou o componente A"/>
@@ -27,5 +29,4 @@ const elementos = <div>
                     </Familia>*/}
                   </div>
 const elemento = document.getElementById('root')
-ReactDOM.render(elementos, 
-                elemento)
+ReactDOM.render(elementos, elemento)
